@@ -6,6 +6,7 @@ import { ListviewComponent } from './listview/listview.component';
 const routes: Routes = [
   { path: 'cardview', component: CardviewComponent },
   { path: 'listview', component: ListviewComponent },
+  { path: '',   redirectTo: '/cardview', pathMatch: 'full' },
 ];
 
 @NgModule({
